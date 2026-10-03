@@ -1,4 +1,6 @@
+/// <reference types="@turbowarp/types" />
+
 export default interface Gui {
-  getBlockly: () => Promise<RealBlockly>
-  getBlocklyEagerly: () => Promise<RealBlockly>
+  getBlockly: () => Promise<ScratchBlocks.RealBlockly>
+  getBlocklyEagerly: () => Promise<ScratchBlocks.RealBlockly>
 }

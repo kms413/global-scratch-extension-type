@@ -9,7 +9,7 @@
  * Use when coercing a value before computation.
  */
 
-class Cast {
+declare class Cast {
   /**
    * Scratch cast to number.
    * Treats NaN as 0.

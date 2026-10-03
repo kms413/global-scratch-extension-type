@@ -1,6 +1,7 @@
 {
   "name": "scratch-extension-global-type",
   "version": "0.1.0",
+  "license": "MIT",
   "types": "./types/index.d.ts",
   "exports": {
     ".": {

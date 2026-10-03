@@ -4,7 +4,7 @@ type Message = string | {
   description?: string
 }
 
-type Setup = (val: Record<string, Record<string>>) => void
+type Setup = (val: Record<string, Record<string, string>>) => void
 
 export default interface Translate {
   (message: Message, ...args: string[]): string

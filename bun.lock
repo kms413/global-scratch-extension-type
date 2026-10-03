@@ -1,0 +1,15 @@
+{
+  "lockfileVersion": 2,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "scratch-extension-global-type",
+      "devDependencies": {
+        "@turbowarp/types": "^0.0.15",
+      },
+    },
+  },
+  "packages": {
+    "@turbowarp/types": ["@turbowarp/types@0.0.15", "https://registry.npmmirror.com/@turbowarp/types/-/types-0.0.15.tgz", {}, "sha512-htwWpnzrbIVqMth3Sk7amo3J7mJGuFLHKVqxSya+Ufa3nBo+2ze3a+drucxn9UMN8CYMNzN9yQipg7hH996weQ=="],
+  }
+}

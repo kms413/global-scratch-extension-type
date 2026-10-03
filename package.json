@@ -1,0 +1,17 @@
+{
+  "name": "scratch-extension-global-type",
+  "version": "0.1.0",
+  "types": "./types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "types"
+  ],
+  "dependencies": {
+    "@turbowarp/types": "^0.0.15"
+  }
+}
